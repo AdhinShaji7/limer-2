@@ -1,0 +1,109 @@
+/* Footer Section */
+#footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 60px 0;
+  }
+  
+  .footer-content {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 40px;
+  }
+  
+  .footer-info h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff; /* Green for the header */
+    margin-bottom: 20px;
+  }
+  
+  .footer-info p {
+    font-size: 1rem;
+    color: #fff; /* White text */
+    line-height: 1.6;
+  }
+  
+  .footer-info .social-links a {
+    margin-right: 15px;
+    color: #fff; /* White icons */
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .footer-info .social-links a:hover {
+    color: #007bff; /* Blue color on hover */
+  }
+  
+  /* Footer Links */
+  .footer-links h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff; /* Green for the section header */
+    margin-bottom: 20px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    font-size: 1rem;
+    color: #fff; /* White text */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #007bff; /* Blue color on hover */
+  }
+  
+  /* Footer Legal Section */
+  .footer-legal {
+    background-color: #23272b;
+    padding: 20px 0;
+  }
+  
+  .footer-legal .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-legal .copyright {
+    font-size: 1rem;
+    color: #fff; /* White text */
+  }
+  
+  .footer-legal .credits a {
+    font-size: 1rem;
+    color: #fff; /* White text */
+    text-decoration: none;
+  }
+  
+  .footer-legal .credits a:hover {
+    color: #007bff; /* Blue color on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-links {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .footer-legal .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  

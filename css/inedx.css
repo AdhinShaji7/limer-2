@@ -1,0 +1,24 @@
+.timeline-content {
+    background-color: white !important;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.timeline-content h3 {
+    background-color:#070963!important;
+    color: white !important;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.timeline-content p {
+    background-color: white !important;
+    color: black !important;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.timeline-icons {
+    display: none !important;
+}
+

@@ -1,0 +1,135 @@
+/* Expertise Section */
+#expertise {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+#expertise h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Team Section */
+#team {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+#team h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.team-member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Global Presence Section */
+#global-presence {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+#global-presence h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#global-presence h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+#global-presence p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Text Centering */
+.text-center {
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    #expertise h2, #team h2, #global-presence h2 {
+        font-size: 2rem;
+    }
+
+    .team-member, .card {
+        margin-bottom: 20px;
+    }
+
+    .team-member h3, .card-title {
+        font-size: 1.25rem;
+    }
+
+    .team-member p, .card-text {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+

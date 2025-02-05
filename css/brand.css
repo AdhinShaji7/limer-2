@@ -1,0 +1,111 @@
+/* General Section Styling */
+#our-brands {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+  
+  #our-brands .section-title h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  #our-brands .section-title h2 span {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #28a745;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  #our-brands .section-title p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    line-height: 1.6;
+  }
+  
+  /* Row and Service Item Styling */
+  #our-brands .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  #our-brands .service-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #our-brands .service-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+  }
+  
+  #our-brands .service-item .icon {
+    font-size: 3rem;
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  #our-brands .service-item h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 15px;
+  }
+  
+  #our-brands .service-item .readmore {
+    font-size: 1rem;
+    color: #28a745;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  #our-brands .service-item .readmore:hover {
+    color: #218838;
+  }
+  
+  #our-brands .badge-indicator {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #ff5b5b;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    #our-brands .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #our-brands .service-item {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  .service-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  .service-item:hover .readmore {
+    color: #070963;
+  }
+  

@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Limer - Contact Us </title>
+        <link rel="icon" type="image/png" href="images/reviews/android-chrome-192x192.png">
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/owl.theme.default.min.css" rel="stylesheet">
+        <link href="css/templatemo-medic-care.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/footer.css">
+
+        <style>
+            /* General Styles for Contact Section */
+.contact-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.contact-card {
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card ul li {
+    margin-bottom: 10px;
+}
+
+.contact-card ul li i {
+    margin-right: 10px;
+    color: #0d6efd;
+}
+
+.map-container {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+/* Contact Us Section */
+#contact-us {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+#contact-us h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#contact-us .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+    #contact-us h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Form Control Styling */
+.contact-form .form-control,
+.contact-form .form-select {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 8px rgba(40, 167, 69, 0.3);
+    outline: none;
+}
+
+.contact-form .form-control {
+    margin-bottom: 20px;
+}
+
+.contact-form .form-select {
+    margin-bottom: 20px;
+}
+
+.contact-form .text-center {
+    margin-top: 20px;
+}
+
+.contact-form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #218838;
+}
+
+/* Distributor Opportunities Section */
+.bg-light {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bg-light h3 {
+    font-size: 2rem;
+    color: #28a745;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.bg-light p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.bg-light strong {
+    color: #e74c3c;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.text-dark {
+    color: #343a40;
+  }
+
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Contact Card Hover Effect */
+.contact-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+    }
+
+    .contact-form h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form .form-control,
+    .contact-form .form-select {
+        padding: 10px;
+    }
+
+    .contact-form button {
+        padding: 10px 25px;
+    }
+}
+
+        </style>
+    </head>
+    
+    <body id="top">
+        <main>
+            <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
+                <div class="container">
+                    <!-- Add class navbar-brand-left -->
+                    <a class="navbar-brand navbar-brand-left" href="index.html">
+                        <img src="images/gallery/Final Out (1) (1).jpg" alt="Limer Logo" style="width: 150px; height: auto; padding-left: -20;" />
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="brand.html">Our Brand</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+
+            <section class="hero" id="hero">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/slider/gall4.jpeg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/slider/gall2.jpeg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/slider/gall5.jpeg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="heroText d-flex flex-column justify-content-center">
+                                <h1 class="mt-auto mb-2">
+                                    Welcome to  
+                                    <div class="animated-info">
+                                        <span class="animated-item">Limer</span>
+                                        <span class="animated-item">Spark</span>
+                                        <span class="animated-item">Idea</span>
+                                        
+
+                                    </div>
+                                </h1>
+                            
+                                <p class="mb-4">Limer is your gateway to groundbreaking ideas, innovation, and limitless creativity. Join us in shaping the future.</p>
+                            
+                                <div class="heroLinks d-flex flex-wrap align-items-center">
+                                    <a class="custom-link me-4" href="#about" data-hover="Discover More">Discover More</a>
+                            
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </section>   
+           
+
+            <section class="contact-section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center" style="margin-bottom: 30px; margin-top: -120px;">
+                            <h2 style="font-size: 2rem; font-weight: 600; color: #343a40; margin-bottom: 15px; padding-top: 60px; position: relative;">
+                                Contact us
+                                <span style="display: block; width: 100px; height: 4px; background-color: #1c39bb ; margin: 15px auto 0; border-radius: 2px;"></span>
+                            </h2>
+                            
+                        </div>
+
+                        <!-- Dubai Office -->
+                        <div class="col-lg-6 col-md-6 mb-5">
+                            <div class="contact-card shadow-lg p-4">
+                                <h3>United Arab Emirates</h3>
+                                <ul class="list-unstyled">
+                                    <li style="color: #1c39bb;">
+                                        <i class="bi bi-geo-alt-fill" style="color: #1c39bb;"></i>
+                                        Shams Business Center, Al Mitsannid - Sharjah, UAE
+                                    </li>
+                                    
+                                    <li><i class="bi bi-telephone-fill"></i>800 74267</li>
+                                    <li><i class="bi bi-envelope-fill"></i>sales@limer.us</li>
+                                </ul>
+                                
+                                <div class="map-container mt-4">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.7912493764698!2d55.6804444!3d25.277606799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef59333cdc4230d%3A0x619b40557215b586!2sShams%20Business%20Center!5e0!3m2!1sen!2sin!4v1738511221703!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- USA Office -->
+                        <div class="col-lg-6 col-md-6 mb-5">
+                            <div class="contact-card shadow-lg p-4">
+                                <h3>United States America</h3>
+                                <ul class="list-unstyled">
+                                    <li style="color: #1c39bb;">
+                                        <i class="bi bi-geo-alt-fill" style="color: #1c39bb;"></i> 14709 Main St, Bellevue, WA 98007, USA
+                                    </li>
+                                    
+                
+                                    <li><i class="bi bi-envelope-fill"></i>sales@limer.us</li>
+                                </ul>
+                                
+                                <div class="map-container mt-4">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.85058107728!2d-122.14391269999999!3d47.609595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906c4a3655b08f%3A0x79d8f80c5676e455!2s14709%20Main%20St%2C%20Bellevue%2C%20WA%2098007%2C%20USA!5e0!3m2!1sen!2sin!4v1738511007410!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                           
+                        
+                            <!-- Contact Form -->
+                            <div class="contact-form bg-white shadow-lg p-5">
+                                <h3 class="text-center mb-4">Send us a message</h3>
+                                <form>
+                                    <div class="row">
+                                        <!-- Company Name -->
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control" placeholder="Company Name *" required>
+                                        </div>
+                                        <!-- Your Name -->
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control" placeholder="Your Name *" required>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="row">
+                                        <!-- Email -->
+                                        <div class="col-md-6 mb-3">
+                                            <input type="email" class="form-control" placeholder="Email *" required>
+                                        </div>
+                                        <!-- Phone Number -->
+                                        <div class="col-md-6 mb-3">
+                                            <input type="tel" class="form-control" placeholder="Phone Number *" required>
+                                        </div>
+                                    </div>
+                        
+                                    <!-- Office Location Dropdown -->
+                                    <div class="mb-3">
+                                        <select class="form-select" required>
+                                            <option selected disabled value="">Select Office Location *</option>
+                                            <option value="dubai">Dubai Office</option>
+                                            <option value="usa">USA Office</option>
+                                        </select>
+                                    </div>
+                        
+                                    <div class="mb-3">
+                                        <select class="form-select" required>
+                                            <option selected disabled value="">Region in which you operate *</option>
+                                            <option value="middle-east">Middle East</option>
+                                            <option value="north-america">North America</option>
+                                            <option value="europe">Europe</option>
+                                            <option value="asia">Asia</option>
+                                        </select>
+                                    </div>
+                        
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Product range of interest" required>
+                                    </div>
+                        
+                                    <div class="mb-3">
+                                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                    </div>
+                                    
+                        
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary px-5">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+
+      <!-- FOOTER -->
+       <!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+  
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+                <h3>
+                    <img src="images/gallery/WhatsApp Image 2025-02-04 at 12.43.00 PM.jpeg" alt="Limer Logo" style="width: 150px; height: auto;" />
+                  </h3>
+              <p><i class="bi bi-geo-alt"></i> Bellevue, WA 98007, USA</p>
+<p><i class="bi bi-geo-alt"></i>Sharjah, Media City, Sharjah, UAE</p>
+
+                <strong>Phone:</strong> +971 50 916 4117<br>
+                <strong>Email:</strong> info@limer.us<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+  
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#product-range">Product Range</a></li>
+              <li><a href="#brands">Our Brands</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+  
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Focus</h4>
+            <ul>
+              <li><a href="#">Brand Development</a></li>
+              <li><a href="#">Market Strategy</a></li>
+              <li><a href="#">Product Distribution</a></li>
+              <li><a href="#">Global Outreach</a></li>
+              <li><a href="#">Partnerships</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+  
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+  
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#">Latest Updates</a></li>
+              <li><a href="#">Our Partners</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Contact Support</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+  
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Limer</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="">Adhin Shaji</a>
+        </div>
+      </div>
+    </div>
+  
+  </footer>
+  <!-- End Footer -->
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
